@@ -38,9 +38,12 @@ onMounted(() => getData())
 <style>
 .face-card {
   border: 10px;
+  margin: 10px;
 }
+
 .list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 </style>
